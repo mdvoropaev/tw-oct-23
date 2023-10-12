@@ -1,0 +1,15 @@
+$desktop-max-width: 1920px;
+
+:root {
+  // base
+  --font-family: "Roboto", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --c-white: #ffffff;
+  --c-black: #2a2a2a;
+  --c-red: #ea003d;
+  --c-gray: #777777;
+}
